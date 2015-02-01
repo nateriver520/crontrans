@@ -1,0 +1,29 @@
+{
+    "name": "crontrans",
+    "main": "index.js",
+    "version": "0.0.1",
+    "homepage": "https://github.com/nateriver520/cron-translator",
+    "authors": [
+        "314shuoyang@gmail.com"
+    ],
+    "description": "Translate cron expression into natural language, this package support both node and browser",
+    "keywords": [
+        "cron",
+        "crontab",
+        "translate",
+        "cron translate"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "mocha": "~2.1.0",
+        "chai": "~1.10.0"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "app/bower_components",
+        "test",
+        "tests"
+    ]
+}

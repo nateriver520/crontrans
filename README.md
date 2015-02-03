@@ -31,6 +31,10 @@ Useage:
 ```js
   var crontrans = require('crontrans');
 ```
+### Bower
+```bash
+  bower install crontrans
+```
 
 ### Browser
 
@@ -45,7 +49,6 @@ Useage:
 ```js
   var crontrans = new CronTrans();
 ```
-
 
 ## Example
 

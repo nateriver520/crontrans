@@ -1,7 +1,7 @@
 {
   "name": "crontrans",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/nateriver520/crontrans",
   "authors": [
     "314shuoyang@gmail.com"

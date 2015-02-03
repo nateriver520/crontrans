@@ -1,5 +1,5 @@
 var chai = chai || require('chai');
-var crontrans =  typeof CronTrans === 'function' ? new CronTrans() : require('../index')();
+var crontrans =  typeof CronTrans === 'function' ? new CronTrans() : require('../index');
 
 var expect = chai.expect;
 

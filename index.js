@@ -1,1 +1,1 @@
-module.exports = require('./lib/crontrans');
+module.exports = require('./lib/crontrans')();

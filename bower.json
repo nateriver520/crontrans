@@ -24,6 +24,16 @@
         "bower_components",
         "app/bower_components",
         "test",
-        "tests"
+        "tests",
+        "source",
+        "spec",
+        ".bowerrc",
+        ".gitignore",
+        ".jshintignore",
+        ".jshintrc",
+        "bower.json",
+        "gruntfile.js",
+        "package.json",
+        "README.md"
     ]
 }

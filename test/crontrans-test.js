@@ -19,12 +19,12 @@ describe("cron translator", function() {
         expect(message.hour).to.equal('21');
     });
 
-    it("give a cron run @11:00 from mon to web @4th of every month, it should return right message", function() {
+    it("give a cron run @11:00 from mon to wed @4th of every month, it should return right message", function() {
         var message = crontrans.translate("0 11 4 * mon-wed");
         
         expect(message.hour).to.equal('11');
         expect(message.min).to.equal('0');
-        expect(message.weekday).to.equal('1,2,3');
+        expect(message.weekday).to.equal('Mon,Tue,Wed');
     }); 
 
     it("give a cron run @04:00 @1th of jan, it should return right message", function() {
@@ -32,7 +32,7 @@ describe("cron translator", function() {
         
         expect(message.hour).to.equal('4');
         expect(message.min).to.equal('0');
-        expect(message.month).to.equal('1');
+        expect(message.month).to.equal('Jan');
         expect(message.day).to.equal('1');
     });
 

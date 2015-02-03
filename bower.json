@@ -1,6 +1,6 @@
 {
     "name": "crontrans",
-    "main": "index.js",
+    "main": "lib/crontrans.js",
     "version": "0.0.2",
     "homepage": "https://github.com/nateriver520/crontrans",
     "authors": [

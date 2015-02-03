@@ -34,8 +34,6 @@ Useage:
 
 ### Browser
 
-add this to head
-
 Just insert the script tag into HTML page:
 
 ```html
